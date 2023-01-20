@@ -86,7 +86,7 @@ const Navbar = ({populerClick,TrendClick,serchbarClick,movieName,setMovieName}) 
                    {
                      images.map((slayt, index)=> (
                         <div className={index===0 ? "carousel-item active" : "carousel-item"}>
-                            <img src={slayt.img} class="d-block"   style={{width:1600,height:600}} />
+                            <img src={slayt.img} class="d-block" style={{ height: 540, margin: 'auto' }} />
                         </div>
                     ))
                    }
