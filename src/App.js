@@ -10,9 +10,9 @@ import "./component/All.css"
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Profil" element={<Profil/>}/>
-      <Route path="/Detail/:id" element={<Detail/>}/>
+      <Route path="/" exact element={<Home/>}/>
+      <Route path="/Profil" exact element={<Profil/>}/>
+      <Route path="/Detail/:id" exact element={<Detail/>}/>
     </Routes>
     </BrowserRouter>
   )
